@@ -558,7 +558,7 @@ img {
 }
 
 .theme-btn:hover, .theme-btn-s2:hover, .theme-btn-s3:hover, .theme-btn-s5:hover, .theme-btn:focus, .theme-btn-s2:focus, .theme-btn-s3:focus, .theme-btn-s5:focus, .theme-btn:active, .theme-btn-s2:active, .theme-btn-s3:active, .theme-btn-s5:active {
-  background-color: #088a1e;
+  background-color: #25d0a8;
   color: #fff;
 }
 
@@ -2575,7 +2575,7 @@ img {
 }
 
 .header-style-1 .topbar, .header-style-2 .topbar {
-  background-color: #09a223;
+  background-color: #8967ea;
   padding: 34px 0;
 }
 
