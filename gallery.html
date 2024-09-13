@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+  <section class="gallery-section">
+    <div class="gallery-header">
+      <h1>Photo</h1>
+      <h2>Gallery</h2>
+    </div>
+    
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="assets/images/image1.jpg" alt="Image 1" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/image2.jpg" alt="Image 2" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/image3.jpg" alt="Image 3" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/image4.jpg" alt="Image 4" onclick="openModal(this)">
+      </div>
+      <!-- Add more images here -->
+    </div>
+
+    <!-- Modal for full image view -->
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="fullImage">
+      <div class="caption" id="caption"></div>
+    </div>
+  </section>
+
+  <script src="assets/js/bootstrap.min.js">
+
+  </script>
+</body>
+</html>

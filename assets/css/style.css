@@ -266,8 +266,8 @@ img {
 }
 
 .contact-validation-active #success {
-  background-color: #009a00;
-  border-left: 5px solid green;
+  background-color: #8c3ff7;
+  border-left: 5px solid #8c3ff7;
   margin-bottom: 5px;
 }
 
@@ -278,7 +278,7 @@ img {
 
 .contact-validation-active #loader {
   text-align: left;
-  color: #09a223;
+  color: #8c3ff7;
   font-size: 8px;
   font-size: 0.53333rem;
 }
@@ -331,7 +331,7 @@ img {
   .box-layout {
     width: 100%;
     height: 100%;
-    background: url("../images/body-bg.jpg") center center/auto repeat fixed;
+    background: url("../projects/Palash\ Bari\ project\ 3.jpg") center center/auto repeat fixed;
   }
 }
 
@@ -546,7 +546,7 @@ img {
 
 .theme-btn, .theme-btn-s2, .theme-btn-s3, .theme-btn-s5 {
   font-family: "Nunito", sans-serif;
-  background-color: #09a223;
+  background-color: #8c3ff7;
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -582,7 +582,7 @@ img {
   background-color: #fff;
   font-size: 16px;
   font-size: 1.06667rem;
-  color: #09a223;
+  color: #8c3ff7;
   padding: 10px 25px;
   border-radius: 0;
   -webkit-box-shadow: 1px 8px 11px 1px rgba(171, 171, 171, 0.3);
@@ -606,7 +606,7 @@ img {
 }
 
 .theme-btn-s3 {
-  background-color: #09a223;
+  background-color: #8c3ff7;
   color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -618,14 +618,14 @@ img {
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
-  color: #09a223;
-  border: 1px solid #09a223;
+  color: #8c3ff7;
+  border: 1px solid #8c3ff7;
   padding: 10px 30px;
   display: inline-block;
 }
 
 .theme-btn-s4:hover, .theme-btn-s4:focus, .theme-btn-s4:active {
-  background-color: #09a223;
+  background-color: #8c3ff7;
   color: #fff;
 }
 
@@ -651,7 +651,7 @@ img {
 }
 
 .theme-btn-s5:hover, .theme-btn-s5:focus, .theme-btn-s5:active {
-  background-color: #088a1e;
+  background-color: #8c3ff7;
   color: #fff;
 }
 
@@ -677,12 +677,12 @@ img {
 .form input:focus,
 .form textarea:focus,
 .form select:focus {
-  border-color: #09a223;
-  -webkit-box-shadow: 0 0 5px 0 #0cd22d;
-  -moz-box-shadow: 0 0 5px 0 #0cd22d;
-  -o-box-shadow: 0 0 5px 0 #0cd22d;
-  -ms-box-shadow: 0 0 5px 0 #0cd22d;
-  box-shadow: 0 0 5px 0 #0cd22d;
+  border-color: #8c3ff7;
+  -webkit-box-shadow: 0 0 5px 0 #cfb1f9;
+  -moz-box-shadow: 0 0 5px 0 #cfb1f9;
+  -o-box-shadow: 0 0 5px 0 #cfb1f9;
+  -ms-box-shadow: 0 0 5px 0 #cfb1f9;
+  box-shadow: 0 0 5px 0 #cfb1f9;
 }
 
 .form ::-webkit-input-placeholder {
@@ -3954,7 +3954,7 @@ img {
 .services-section .grid .icon .fi:before {
   font-size: 40px;
   font-size: 2.66667rem;
-  color: #09a223;
+  color: #6a00ff;
 }
 
 @media (max-width: 767px) {
@@ -4000,11 +4000,11 @@ img {
 .services-section .grid .read-more {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  color: #09a223;
+  color: #6a00ff;
 }
 
 .services-section .grid .read-more:hover {
-  color: #067219;
+  color: #6a00ff;
 }
 
 .services-section .grid:hover {
@@ -4076,7 +4076,7 @@ img {
   line-height: 84px;
   font-size: 25px;
   font-size: 1.66667rem;
-  color: #09a223;
+  color: #6a00ff;
   text-align: center;
   border-radius: 50%;
   display: inline-block;
@@ -4140,7 +4140,7 @@ img {
 .about-section .funfact-grids .icon .fi:before {
   font-size: 55px;
   font-size: 3.66667rem;
-  color: #09a223;
+  color: #6a00ff;
 }
 
 @media (max-width: 991px) {
@@ -4248,7 +4248,7 @@ img {
 }
 
 .industry-section .grid .icon {
-  background-color: #09a223;
+  background-color: #6a00ff;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -4372,7 +4372,7 @@ img {
 
 .contact-section .submit-btn-wrapper button {
   font-family: "Nunito", sans-serif;
-  background-color: #09a223;
+  background-color: #6a00ff;
   width: 100%;
   height: 45px;
   font-size: 16px;
@@ -6034,7 +6034,7 @@ img {
 }
 
 .about-section-s3 .right-col {
-  background: url("../images/about-video-bg.jpg") center center/cover no-repeat local;
+  background: url("../projects/Palash\ Bari\ project\ 3.jpg") center center/cover no-repeat local;
   width: calc(50% - 90px);
   height: 100%;
   float: left;
@@ -9233,7 +9233,7 @@ img {
 
 .blog-single-section .comment-respond .submit-btn button {
   width: 100%;
-  background-color: #09a223;
+  background-color: #6a00ff;
   padding: 10px 30px;
   color: #fff;
   border: 0;
@@ -9248,6 +9248,62 @@ img {
 
 .blog-single-section .comment-respond .submit-btn button:hover {
   background-color: #088a1e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .navigation {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .navigation li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px 3px 0;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+section .navigation li:hover {
+  opacity: 1;
+}
+
+
+section .navigation li img {
+  width: 120px;
+  transition: 0.5s;
+}
+
+section .navigation li img:hover {
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

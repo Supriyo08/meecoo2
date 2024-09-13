@@ -1,0 +1,175 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px;
+    padding-bottom: 300px;
+    gap: 100px;
+    background: linear-gradient(to bottom right, #e0f7fa, #e1bee7, #ffffff);
+    font-family: 'Arial', sans-serif;
+}
+
+.product-list {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 25px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-list h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.product-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list li {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 8px 0;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #f7f7f7;
+    font-size: 1.1em;
+}
+
+.product-list li:hover {
+    background-color: #d670ed;
+    transform: scale(1.05);
+}
+
+.product-details {
+    flex: 3;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.product-details h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.video-section {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-section video {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.paragraph-section {
+    margin-bottom: 20px;
+}
+
+.paragraph-section p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.product-image {
+    width: 60%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.media-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-video {
+    width: 100%; /* Full width for CNC Machine video */
+    max-height: 500px;
+}
+
+#product-image {
+    max-width: 50%; /* Centered image with half width */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+
+
+/* New Media Grid Section */
+.media-grid {
+    margin-top: 50px;
+}
+
+.media-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.media-item {
+    flex: 1;
+    margin: 0 15px; /* Adds space between the items */
+    overflow: hidden; /* Hides overflow for zoom effect */
+    position: relative; /* To contain the zoom effect */
+    border-radius: 10px;
+}
+
+/* Set width and height for media */
+.media-item video,
+.media-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth zoom and video hover effects */
+    border-radius: 10px;
+    border: #da89eb solid 5px;
+}
+
+/* Zoom effect for video and image */
+.media-item:hover video,
+.media-item:hover img {
+    transform: scale(1.5); /* Zoom in when hovered */
+    border: #5d076e solid 7px;
+}
+
+/* Automatically play video on hover */
+.media-item:hover video {
+    filter: brightness(1.2); /* Optional: brighten the video on hover */
+    transform: scale(1.1); /* Zoom effect */
+    border: #5d076e solid 7px;
+}
+
+.media-video:hover {
+    play: true;
+    
+}
+
+/* Play video when hovered */
+.media-item:hover .media-video {
+    filter: brightness(1.2); /* Brighten video */
+    transform: scale(1.5);   /* Zoom on hover */
+    play: true;
+    border: #5d076e solid 7px;
+}
